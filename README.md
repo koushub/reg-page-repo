@@ -1,2 +1,2 @@
-# reg-page-repo
- LMS page
+# Reg-Page
+ LMS Registration Page

@@ -1,0 +1,194 @@
+/* Navigatin Bar */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(90deg, #5c0f43 0%, #310d65 100%);
+}
+
+nav {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    padding: 9px;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 5px 5px 16px rgba(128, 128, 128, 0.382);
+    z-index: 1;
+    position: relative;
+}
+
+nav button {
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 0.87rem;
+    cursor: pointer;
+    margin: 3px;
+    width: max-content;
+    white-space: nowrap;
+}
+
+nav form {
+    display: flex;
+    width: 100%;
+    margin-right: 90px;
+    position: relative;
+    right: 10px;
+    margin: auto;
+}
+
+nav form input {
+    border: 0.1em solid black;
+    padding: 0px 2.4rem 0px 2.4rem;
+    display: flex;
+    align-items: stretch;
+    border-radius: 30px;
+    width: 100%;
+    height: 47px;
+    margin-right: 2px;
+    background-color: rgba(0, 0, 0, 0.029);
+}
+
+nav form input:focus {
+    outline: none;
+}
+
+nav form button {
+    border: none;
+    position: relative;
+    background: rgba(76, 175, 80, 0);
+    left: 35px;
+}
+
+.sign_up {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    height: 40px;
+    width: max-content;
+    padding: 0px 15px 0px 15px;
+}
+
+.login {
+    border: 1px solid black;
+    font-weight: 900;
+    height: 40px;
+    width: max-content;
+    padding: 0px 20px 0px 20px;
+}
+
+.cart {
+    padding: 11px 14px;
+    height: max-content;
+}
+
+.globe {
+    border: 1px solid black;
+    margin-right: 8px;
+    padding: 11px 14px;
+    height: 40px;
+}
+
+.page {
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    max-width: 1000px;
+    font-family: poppins;
+    margin: auto;
+}
+.card{
+    background: linear-gradient(90deg, #763e6d -0%, #623e7e 100%);
+    border-radius: 10px;
+    
+}
+.personal{
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    .udemy_business {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .udemy_teach {
+        display: none;
+    }
+}
+
+@media (max-width: 833px) {
+    .courses_categories li {
+        margin-right: 30px;
+    }
+
+    .courses_categories {
+        flex-wrap: wrap;
+        width: auto;
+        min-width: 10px;
+        justify-content: flex-start;
+        line-height: 40px;
+    }
+
+    .cat {
+        display: none;
+    }
+
+  
+
+    header div div {
+        height: 42%;
+        width: 84%;
+        top: 90%;
+        left: 5%;
+        background-color: white;
+    }
+
+    header div div p {
+        font-size: larger;
+    }
+
+    .break {
+        height: 230px;
+    }
+}
+
+@media (max-width: 692px) {
+
+    .cart,
+    nav form,
+    .sign_up,
+    .log_in,
+    .globe {
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+}
