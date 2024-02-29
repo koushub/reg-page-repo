@@ -108,6 +108,7 @@ nav form button {
 .card{
     background: linear-gradient(90deg, #763e6d -0%, #623e7e 100%);
     border-radius: 10px;
+    height: 500px;
     
 }
 .personal{
@@ -118,7 +119,10 @@ nav form button {
     background-color: white;
 }
 
-
+.logo{
+    width: 100px;
+    margin-right: 75rem;
+}
 
 
 

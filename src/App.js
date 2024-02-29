@@ -1,16 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Card from './components/Card';
+import Carousel from './components/Carousel';
 
 function App() {
- 
+
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className="container p-5">
-    <Card />
-        
+        <Carousel/>
+       
+
+
       </div>
     </>
   );

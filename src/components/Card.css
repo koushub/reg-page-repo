@@ -3,9 +3,103 @@
     padding-bottom: 0.2rem;
 } */
 
-.long-input{
+.long-input {
     width: 75%;
 }
-.short-input{
+
+.short-input {
     width: 293px;
 }
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: none !important;
+}
+
+.custom-file-input:invalid~.custom-file-label::after {
+    content: none !important;
+}
+
+.image-select {
+    background-color: white;
+    width: 220px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-left: 80px;
+}
+.image-select-2 {
+    background-color: white;
+    width: 620px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-left: 420px;
+}
+.image-select-3 {
+    background-color: white;
+    width: 620px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-left: 460px;
+}
+.image-select-4 {
+    background-color: white;
+    width: 620px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-left: 405px;
+}
+
+/* Adjust size of the browse button */
+.pg-3-btn {
+    background-color: #ababab; /* Green */
+    height: 30px;
+    font-size: 15px;
+    margin-top: 3%;
+    font-display: center;
+  }
+
+.top-margin{
+    padding-top: 100px;
+}
+.btn-color{
+    background-color: #c2b4b4;
+}
+.btn-margin{
+    margin-top: 3rem;
+}
+/* CSS */
+.alert-pass {
+    margin-top: 0.9rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    height: 30px;
+    padding-top: 3px;
+    background-color: #ef4343;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    animation: fade 0.5s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .hide {
+    animation: fadeOut 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
